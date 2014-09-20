@@ -1,0 +1,25 @@
+<Alloy>
+	<Window class="container">
+		<View class="questionsContainer">
+			<View class="row">
+				<Label class="question">Question 1</Label>
+				<Require type="widget" src="starrating" class="starRating" id="starR1"  max='5' initialRating='2.5'></Require>
+			</View>
+			<View class="row">
+				<Label class="question">Question 2</Label>
+				<Require type="widget" src="starrating" class="starRating" id="starR2"  max='5' initialRating='3'></Require>
+			</View>
+			<View class="row">
+				<Label class="question">Question 3</Label>
+				<Require type="widget" src="starrating" class="starRating" id="starR3"  max='5' initialRating='2'></Require>
+			</View>
+			<View class="row">
+				<Label class="question">Question 4</Label>
+				<Require type="widget" src="starrating" class="starRating" id="starR4"  max='5' initialRating='3.5'></Require>
+			</View>
+			<View class="row">
+				<Button class="processRating">Procees</Button>
+			</View>
+		</View>
+	</Window>
+</Alloy>
